@@ -3,7 +3,6 @@ import functools
 import itertools
 import math
 import os
-import ffmpeg
 import random
 import discord
 import youtube_dl
