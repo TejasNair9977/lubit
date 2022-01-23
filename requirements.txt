@@ -53,7 +53,6 @@ pyRFC3339==1.1
 pyrsistent==0.18.1
 python-dateutil==2.8.2
 pytz==2021.3
-pywin32==303
 PyYAML==6.0
 pyzmq==22.3.0
 regex==2022.1.18
