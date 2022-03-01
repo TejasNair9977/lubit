@@ -493,5 +493,5 @@ async def on_ready():
 bot.run(os.environ['TOKEN'])
 async def on_message(message):
     if message.channel.id == (948076201136762971):
-        await Bot.get_channel(935189826448273408).send(f"{message}")
+        await Bot.get_channel(948076201136762971).send(f"{message}")
     await Bot.process_commands(message) 
