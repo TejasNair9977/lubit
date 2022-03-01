@@ -426,6 +426,11 @@ class Music(commands.Cog):
         ctx.voice_state.songs.shuffle()
         await ctx.message.add_reaction('✅')
 
+    @commands.command(name='send')
+    async def on_message((self, ctx: commands.Context, *, search: str)):
+        if message.channel.id == (948076201136762971):
+            await Bot.get_channel(948076201136762971).send(f"{str}")
+
     @commands.command(name='remove')
     async def _remove(self, ctx: commands.Context, index: int):
         """Removes a song from the queue at a given index."""
@@ -491,7 +496,3 @@ bot.add_cog(Music(bot))
 async def on_ready():
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 bot.run(os.environ['TOKEN'])
-async def on_message(message):
-    if message.channel.id == (948076201136762971):
-        await Bot.get_channel(948076201136762971).send(f"{message}")
-    await Bot.process_commands(message) 
