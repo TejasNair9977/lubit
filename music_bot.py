@@ -490,7 +490,4 @@ bot.add_cog(Music(bot))
 @bot.event
 async def on_ready():
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
-async def on_message(message):
-#     if message.channel.id == 948076201136762971:
-         await message.channel.send('this is a test')
 bot.run(os.environ['TOKEN'])
