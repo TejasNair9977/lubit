@@ -427,7 +427,7 @@ class Music(commands.Cog):
         await ctx.message.add_reaction('✅')
 
     @commands.command(name='send')
-    async def on_message((self, ctx: commands.Context, *, search: str)):
+    async def on_message(self, ctx: commands.Context, *, search: str):
         if message.channel.id == (948076201136762971):
             await Bot.get_channel(948076201136762971).send(f"{str}")
 
