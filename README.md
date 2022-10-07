@@ -18,6 +18,15 @@ See the [open issues](https://github.com/TejasNair9977/lubit/issues) for a full 
 ## Running
 
 All you have to do to run this, is:-
+### Setting up the bot
+* Login into [Discord Developer Portal](https://discord.com/developers/applications)
+* Click the create a new application at the top right, and give it a name.
+* Click on bots on the left, and then click Add Bot on the right.
+* Finally, click the Reset Token button on the right and then, copy it.
+* Make a .env file in your project folder, and make sure to exclude it in .gitignore
+* Open the .env file, and type the line `TOKEN=YOUR_TOKEN_HERE`
+* Your bot is now fully set up!
+### Running the bot
 * Navigate to the folder with the files in command line
 * pip3 install -r requirements.txt (Python 3)
 * py music_bot.py
