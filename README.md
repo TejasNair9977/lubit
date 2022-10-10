@@ -23,6 +23,7 @@ All you have to do to run this, is:-
 * Click the create a new application at the top right, and give it a name.
 * Click on bots on the left, and then click Add Bot on the right.
 * Finally, click the Reset Token button on the right and then, copy it.
+* Then, scroll down and make sure to enable `Message Content Intent` since all our commands are message based (for now)
 * Make a .env file in your project folder, and make sure to exclude it in .gitignore
 * Open the .env file, and type the line `TOKEN=YOUR_TOKEN_HERE`
 * Your bot is now fully set up!
