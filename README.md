@@ -5,8 +5,9 @@
 ## Roadmap
 
 - [x] Text YT search argument
-- [ ] Fixing problems with functions
+- [x] (almost) Fixing problems with functions
 - [ ] Adding more compatibility
+- [ ] Adding Moderation Capabilites
 - [ ] ???
 
 See the [open issues](https://github.com/TejasNair9977/lubit/issues) for a full list of proposed features (and known issues).
