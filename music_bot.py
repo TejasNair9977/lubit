@@ -5,10 +5,9 @@ import discord
 import os
 import wavelink
 
-GUILDS = [1027207617912782871, 1028379963721785504]
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='"', intents=discord.Intents.all())
 
 
 class ControlPanel(discord.ui.View):
