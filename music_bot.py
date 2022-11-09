@@ -7,7 +7,7 @@ import wavelink
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='"', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 
 class ControlPanel(discord.ui.View):
@@ -138,7 +138,7 @@ async def node_connect():
     password='dismusic',
     spotify_client=spotify.SpotifyClient(
       client_id="caa96fa2517b40db8bbb482d1ee29880",
-      client_secret="79010bc93a6c48a48f060e037e38a015"))
+      client_secret=os.environ['CLIENT_SECRET']))
 
 
 @bot.event
